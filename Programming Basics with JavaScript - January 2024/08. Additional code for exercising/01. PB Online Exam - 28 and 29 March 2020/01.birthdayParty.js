@@ -5,7 +5,7 @@ function birthdayParty(input) {
     let drinks = cake - (cake * .45);
     let animator = 1/3 * rent; 
 
-    let birthdayCost = (rent+cake+drinks+animator).toFixed(1);
+    let birthdayCost = (rent + cake + drinks + animator).toFixed(1);
 
     console.log(`${birthdayCost}`);
 
