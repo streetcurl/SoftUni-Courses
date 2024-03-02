@@ -5,7 +5,7 @@ function centuriesToMinutes(centuries) {
     const hours = 24 * days;
     const minutes = hours * 60;
 
-    console.log(`${centuries} cenuturies = ${years} years = ${days} days = ${hours} hours = ${minutes} minutes`);
+    console.log(`${centuries} centuries = ${years} years = ${days} days = ${hours} hours = ${minutes} minutes`);
 
 }
 
