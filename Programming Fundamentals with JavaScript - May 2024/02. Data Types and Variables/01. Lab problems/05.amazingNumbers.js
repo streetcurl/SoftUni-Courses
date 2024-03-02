@@ -9,7 +9,7 @@ function amazingNumber(num) {
 
     let result = sum.toString().includes("9");
 
-    console.log(result ? `${sum} Amazing? True` : `${sum} Amazing? False`);
+    console.log(result ? `${num} Amazing? True` : `${num} Amazing? False`);
 
 
 }
