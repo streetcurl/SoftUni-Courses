@@ -9,7 +9,11 @@ function spiceMustFlow(startingYield) {
         startingYield -= 10;
     }
 
-    totalAmountOfSpice -= 26;
+    if (totalAmountOfSpice > 26) {
+
+        totalAmountOfSpice -= 26;
+
+    }
 
     console.log(daysMined);
     console.log(totalAmountOfSpice);
